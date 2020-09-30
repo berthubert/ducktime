@@ -10,3 +10,7 @@ circumstances, and how to best feed it data.
 To compile, edit Makefile with the location of your DuckDB tree, and run
 'make'.
 
+To test, run: `./ducktime duckfilename 10000000`, and it will stream 10
+million rows into `duckfilename`. The data simulates some typical timeseries
+data.
+
