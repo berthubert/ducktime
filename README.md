@@ -14,3 +14,12 @@ To test, run: `./ducktime duckfilename 10000000`, and it will stream 10
 million rows into `duckfilename`. The data simulates some typical timeseries
 data.
 
+Status & Features
+-----------------
+This is a toy. It might grow into something or not. Current features:
+
+ * Schema adjusted automatically if you add new fields
+ * Native storage of integers, doubles, strings
+ * Uses the DuckDB "Bulk" API
+ 
+I'm still exploring the best use of transactions and the Appender API to get the smoothest experience.
